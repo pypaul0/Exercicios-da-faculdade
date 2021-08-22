@@ -1,3 +1,6 @@
+//Elabore um programa para criptografar uma frase dada pelo usuário, ou seja, 
+//a criptografia troca as vogais da frase por *
+
 #include <stdio.h>
 
 int main() {

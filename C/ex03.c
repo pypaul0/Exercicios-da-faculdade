@@ -1,3 +1,6 @@
+//Elabore um programa para criptografar uma frase dada pelo usuário, ou seja, 
+//a criptografia inverte a frase
+
 #include <stdio.h>
 #include <string.h>
 

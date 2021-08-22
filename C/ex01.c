@@ -1,3 +1,6 @@
+//Elabore um programa que receba uma frase, calcule e mostre a quantidade 
+//de palavras da frase digitada
+
 #include <stdio.h>
 
 int main() {
