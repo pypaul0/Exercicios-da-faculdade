@@ -27,5 +27,8 @@ int main() {
 	for(i = 0; frase2[i] != '\0'; i++) {
 		frase3[strlen(frase1) + i + 1] = frase2[i];
 	}
+	
+	frase3[tamanho] = '\0';
+	
 	printf("%s", frase3);
 }
