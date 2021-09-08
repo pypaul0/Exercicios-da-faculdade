@@ -3,6 +3,17 @@ intervalo de 1 a 9 e mostre a seguinte tabela de multiplicação (no exemplo, n=9)
 
 #include <stdio.h>
 
+void mult(num);
+
+int main() {
+	int num = 0;
+	
+	printf("Digite um numero: ");
+	scanf("%d", &num);
+	
+	mult(num);
+}
+
 void mult(num) {
 	int i, j;
 	
@@ -12,13 +23,4 @@ void mult(num) {
 		}
 		printf("\n");
 	}
-}
-
-int main() {
-	int num = 0;
-	
-	printf("Digite um numero: ");
-	scanf("%d", &num);
-	
-	mult(num);
 }
