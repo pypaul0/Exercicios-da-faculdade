@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mapa.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <p>Este projeto tem como finalidade formar um time de League of legends e salva-lo para que o usuario possa
+            lembrar da sua composição mais tarde</p>
+    </header>
+
+    
+    <h1>Formador de equipes</h1>
+    
+    <main>
+        <div id="enviar">
+            <input type="text" id="nome" placeholder="Nome do time">
+            <input type="button" value="Confirmar" id="confirmar">
+        </div>
+        <div class="lane">
+            <input type="text" class="inputNome" list="lista">
+            <h3></h3>
+            <img src="" class="splash"><br>
+            <img src="https://raw.githubusercontent.com/esports-bits/lol_images/master/role_lane_icons/TOP.png"
+                class="rota">
+            <img src="img/blitao.webp" class="classe">
+        </div>
+        <div class="lane">
+            <input type="text" class="inputNome" list="lista">
+            <h3></h3>
+            <img src="" class="splash"><br>
+            <img src="https://raw.githubusercontent.com/esports-bits/lol_images/master/role_lane_icons/JUNGLE.png"
+                class="rota">
+            <img src="img/blitao.webp" class="classe">
+        </div>
+        <div class="lane">
+            <input type="text" class="inputNome" list="lista">
+            <h3></h3>
+            <img src="" class="splash"><br>
+            <img src="https://raw.githubusercontent.com/esports-bits/lol_images/master/role_lane_icons/MIDDLE.png"
+                class="rota">
+            <img src="img/blitao.webp" class="classe">
+        </div>
+        <div class="lane">
+            <input type="text" class="inputNome" list="lista">
+            <h3></h3>
+            <img src="" class="splash"><br>
+            <img src="https://raw.githubusercontent.com/esports-bits/lol_images/master/role_lane_icons/ADC.png"
+                class="rota">
+            <img src="img/blitao.webp" class="classe">
+
+        </div>
+        <div class="lane">
+            <input type="text" class="inputNome" list="lista">
+            <h3></h3>
+            <img src="" class="splash"><br>
+            <img src="https://raw.githubusercontent.com/esports-bits/lol_images/master/role_lane_icons/SUPPORT.png"
+                class="rota">
+            <img src="img/blitao.webp" class="classe">
+        </div>
+        
+    </main>
+
+    <section>
+
+        <img src="http://ddragon.leagueoflegends.com/cdn/6.8.1/img/map/map11.png" id="mapa">
+        <div id="icons">
+            <img src="img/missing.webp" class="champ" id="top">
+            <img src="img/missing.webp" class="champ" id="jg">
+            <img src="img/missing.webp" class="champ" id="mid">
+            <img src="img/missing.webp" class="champ" id="adc">
+            <img src="img/missing.webp" class="champ" id="sup">
+        </div>
+    </section>
+    <h1>Lista Equipe</h1>
+    <section id="listagem">
+        
+        <div id="listaEquipe">
+
+        </div>    
+    </section>
+
+
+
+
+    <datalist id="lista">
+
+    </datalist>
+    
+
+</body>
+<script language="javascript" src="script.js"></script>
+<script language="javascript" src="put.js"></script>
+<script language="javascript" src="delete.js"></script>
+</html>

@@ -1,3 +1,4 @@
 *.exe
-teste.*
-Web
+*teste.*
+*.rar
+*.zip

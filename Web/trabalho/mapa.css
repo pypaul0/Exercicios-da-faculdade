@@ -1,0 +1,56 @@
+section {
+    text-align: center;
+    width: 100%;
+    min-height: 0;
+}
+
+#mapa {
+    border-radius: 30px;
+    height: 280px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 60px;
+}
+
+.champ {
+    position: absolute;
+    border-radius: 100%;
+    height: 32px;
+}
+
+#icons {
+    margin: 30px;
+    position: relative;
+    height: 280px;
+    width: 280px;
+    display: inline-block;
+    margin-top: 80px;
+}
+
+
+#top {
+    left: 10px;
+}
+
+#jg {
+    top: 50px;
+    left: 60px;
+}
+
+#mid {
+    left: 110px;
+    top: 95px;
+}
+
+#adc {
+    bottom: 50px;
+    right: 5px;
+}
+
+#sup {
+    bottom: 25px;
+    right: 35px;
+}

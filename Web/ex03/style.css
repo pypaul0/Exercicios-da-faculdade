@@ -1,0 +1,181 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(194, 194, 194);
+    margin: 0;
+    color: rgb(58, 58, 58);
+}
+
+header {
+    background-color: orange;
+    font-size: 19pt;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+
+main {
+    background-color: rgb(65, 65, 65);
+    width: 630px;
+    height: 438px;
+    padding: 10px;
+    padding-top: 100px;
+    padding-left: 100px;
+    position: absolute;
+}
+
+h1 {
+    border-bottom: 30px;
+    color: white;
+    font-size: 30pt;
+}
+
+article {
+    color: rgb(199, 199, 199);
+    width: 350px;
+}
+
+#linhaTitulo {
+    border: 2px solid greenyellow;
+    display: inline-block;
+    width: 40px;
+}
+
+#conteudo {
+    text-align: center;
+    position: relative;
+    background-color: rgb(247, 247, 247);
+    height: 450px;
+    width: 500px;
+    margin-left: 500px;
+    margin-top: 40px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.7);
+}
+
+.itens {
+    font-size: 8pt;
+    width: 150px;
+    height: auto;
+    display: inline-table;
+    margin-top: 35px;
+    
+}
+
+.paragrafo {
+    padding: 5px;
+}
+
+#link {
+    background-color: green;
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#consulta {
+    color: rgb(228, 228, 228);
+    text-decoration: none;
+}
+
+#divisor {
+    border: 0px;
+    margin-top: 50px;
+}
+
+#compra {
+    margin: 0px;
+    color: rgb(223, 223, 223);
+    padding: 50px;
+    background-color: rgb(248, 248, 248);
+    text-align: center;
+}
+
+.preco {
+    line-height: 27px;
+    width: 230px;
+    height: 110px;
+    padding-top: 15%;
+}
+
+.recurso {
+    width: 230px;
+    height: 200px;
+    padding-top: 5%;
+}
+
+ol {
+    list-style-type: none;
+    margin-right: 40px;
+    line-height: 28px;
+}
+
+.dinheiro {
+    font-size: 20pt;
+    font-weight: 600;
+}
+
+nav {
+    background-color: rgb(241, 241, 241);
+    display: inline-block;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-transform: uppercase;
+    font-size: 9pt;
+    font-weight: 550;
+}
+
+footer {
+    background-color: orange;
+    font-size: 14pt;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.plano {
+    margin: -3px;
+    display: inline-block;
+}
+
+#livre {
+    background-color: rgb(68, 145, 233);
+}
+
+#primeiro {
+    background-color: rgb(89, 165, 252);
+}
+
+#padrao {
+    background-color: rgb(137, 34, 197);
+}
+
+#segundo {
+    background-color: rgb(171, 61, 235);
+}
+
+#negocio {
+    background-color: rgb(216, 33, 33);
+}
+
+#terceiro {
+    background-color: rgb(235, 55, 55);
+}
+
+#profissional {
+    background-color: rgb(7, 167, 127);
+}
+
+#quarto {
+    background-color: rgb(35, 199, 158);
+}

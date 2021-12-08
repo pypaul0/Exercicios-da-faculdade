@@ -1,0 +1,96 @@
+/*Eu juro que tentei, só q o maximo q eu consegui chegar foi nisso*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;900&display=swap');
+
+body {
+    margin: 0 auto;
+    font-family: Roboto;
+}
+
+header {
+    padding: 40px;
+    text-align: center;
+    color: white;
+    background-color: #573d60;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+header input {
+    flex-basis: 100%;
+    max-width: 1000px;
+    height: 30px;
+}
+
+section {
+    text-align: center;
+}
+
+h1 {
+    flex-basis: 100%;
+    margin: 0;
+}
+
+h2 {
+    flex-basis: 100%;
+    text-align: center;
+}
+
+#botao {
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 10pt;
+    padding: 9px;
+    max-width: 100px;
+    display: inline-block;
+    background-color: rgb(123, 70, 172);
+}
+
+#top5 {
+    margin: 0 auto;
+    max-width: 500px;
+    align-items: baseline;
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+}
+
+.link {
+    display: flex;
+    padding: 15px;
+}
+
+.visita {
+    display: inline-block;
+    padding: 20px;
+    max-width: 130px;
+    margin-left: 50px;
+    background-color: #573d60;
+}
+
+hr {
+    flex-basis: 100%;
+}
+
+#imagens {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+#imagens img {
+    margin: 3px;
+}
+
+footer {
+    margin: 0 auto;
+    padding: 25px;
+    color: white;
+    background-color: #1e1e1e;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
